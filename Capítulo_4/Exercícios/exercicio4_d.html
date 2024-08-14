@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4.d</title>
+    <link rel="stylesheet" href="Style/exercicio4.css">
+</head>
+<body>
+    <!-- 
+        d) Elaborar um programa que leia três lados e verifique se eles podem ou não formar um triângulo. Para formar um triângulo, um dos lados não pode ser maior que a soma dos outros dois. Caso possam formar um triângulo, exiba também qual o tipo do triângulo: Equilátero (3 lados iguais), Isósceles (2 lados iguais) e Escaleno (3 lados diferentes).     
+    -->
+
+    <h1 style="width: 560px;">Programa Lados de Um Triângulo</h1>
+    <img src="Image/notebook.jpg" alt="Imagem Notebook">
+    <form action="#">
+        <p>
+            Lado A:
+            <input type="number" id="inLadoA" min="1" required>
+        </p>
+        <p>
+            Lado B:
+            <input type="number" id="inLadoB" min="1" required>
+        </p>
+        <p>
+            Lado C:
+            <input type="number" id="inLadoC" min="1" required>
+        </p>
+        <input type="submit" value="Verificar Lados">
+    </form>
+    <h3 id="outResp1"></h3>
+    <h3 id="outResp2"></h3>
+    <script src="Script/exercicio4_d.js"></script>
+</body>
+</html>

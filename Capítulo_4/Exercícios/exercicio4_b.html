@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4.b</title>
+    <link rel="stylesheet" href="Style/exercicio4.css">
+</head>
+<body>
+    <!-- 
+        b) Elaborar um programa que leia a velocidade permitida em uma estrada e a velocidade de um condutor. Se a velocidade for inferior ou igual à  permitida, exiba “Sem Multa”. Se a velocidade for de até 20% maior que a permitida, exiba “Multa Leve”. E, se a velocidade for superior a 20% da velocidade permitida, exiba “Multa Grave”.
+    -->
+
+    <h1 style="width: 550px;">Programa Verificador Velocidade</h1>
+    <img src="Image/notebook.jpg" alt="Imagem Notebook">
+    <form action="#">
+        <p>
+            Velocidade Permitida:
+            <input type="number" id="inVelPerm" min="0" required>
+        </p>
+        <p>
+            Velocidade Condutor:
+            <input type="number" id="inVelCond" min="0" required>
+        </p>
+        <input type="submit" value="Verificar Velocidade">
+    </form>
+    <h3></h3>
+    <script src="Script/exercicio4_b.js"></script>
+</body>
+</html>

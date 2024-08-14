@@ -11,12 +11,8 @@ frm.addEventListener("submit", (e) => {
     const masculino = frm.inMasculino.checked;
     const altura = Number(frm.inAltura.value);
 
-    let peso; // Declara a variável peso
-    if (masculino) { // se masculino (ou, if masculino == true)
-        peso = 22 * Math.pow(altura, 2); // Math.pow eleva ao quadrado
-    } else {
-        peso = 21 * Math.pow(altura, 2);
-    }
+    // Declara a variável peso e utiliza operador ternário para atribuir o resultado da formula
+    let peso = masculino ? 22 * Math.pow(altura, 2) : 21 * Math.pow(altura, 2);
 
     // Exibe o resultado
     resp.innerText = `${nome}: Seu peso ideal é ${peso.toFixed(3)} kg`

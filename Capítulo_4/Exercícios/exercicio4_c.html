@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4.c</title>
+    <link rel="stylesheet" href="Style/exercicio4.css">
+</head>
+<body>
+    <!-- 
+        c) Elaborar um programa para simular um parquímetro, o qual leia o valor de moedas depositado em um terminal de estacionamento rotativo. O programa deve informar o tempo de permanência do veículo no local e o troco (se existir). Se o valor for inferior ao tempo mínimo, exiba a mensagem: “Valor Insuficiente”. Considerar os valores/tempos abaixo(o máximo é 120 min).
+
+                        Valor R$   |    Tempo (min)
+                           1,00    |        30             
+                           1,75    |        60             
+                           3,00    |        120            
+    -->
+
+    <h1 style="width: 540px;">Programa Parquímetro</h1>
+    <img src="Image/notebook.jpg" alt="Imagem Notebook">
+    <form action="#">
+        <p>
+            Valor: R$
+            <input type="number"  id="inValor" min="0" step="0.01" required>
+        </p>
+        <input type="submit" value="Confimar Depósito">
+    </form>
+    <h3 id="outResp1"></h3>
+    <h3 id="outResp2"></h3>
+    <script src="Script/exercicio4_c.js"></script>
+</body>
+</html>

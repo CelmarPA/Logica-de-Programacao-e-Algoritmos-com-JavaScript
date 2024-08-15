@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5.a</title>
+    <link rel="stylesheet" href="Style/exercicios5.css">
+</head>
+<body>
+    <!-- 
+        a) Elaborar um programa que leia o nome de uma fruta e um número. O programa deve repetir a exibição do nome da fruta, de acordo com o número informado. Utilize o “*” para separar os nomes.
+    -->
+
+    <h1>Programa Repete Fruta</h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="Image/notebook.jpg" alt="Imagem Notebook" class="normal">
+        </div>
+        <div style class="content">
+            <form action="#">
+                <p>
+                    Fruta:
+                    <input type="text" id="inFruta" required>
+                </p>
+                <p>
+                    Número:
+                    <input type="number" id="inNumero" step="1" required>
+                </p>
+                <input type="submit" value="Repetir Fruta">
+                <input type="reset" value="Limpar">
+            </form>
+            <h3></h3>            
+        </div>
+    </div>
+    <script src="Script/exercicio5_a.js"></script>
+</body>
+</html>

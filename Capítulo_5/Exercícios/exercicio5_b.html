@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5.b</title>
+    <link rel="stylesheet" href="Style/exercicios5.css">
+</head>
+<body>
+    <!-- 
+        b) Digamos que o número de chinchilas de uma fazenda triplica a cada ano, após o primeiro ano. Elaborar um programa que leia o número inicial de chinchilas e anos e informe ano a ano o número médio previsto de chinchilas da fazenda. O número inicial de chinchilas deve ser maior ou igual a 2 (um casal).
+    -->
+
+    <h1 style="width: 620px;">Programa Criação de Chinchilas</h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="Image/notebook.jpg" alt="Imagem Notebook" class="normal">
+        </div>
+        <div style class="content">
+            <form action="#">
+                <p>
+                    Nº Chinchilas:
+                    <input type="number" id="inNumero" min="1" step="1" required>
+                </p>
+                <p>
+                    Nº Anos:
+                    <input type="number" id="inAnos" step="1" required>
+                </p>
+                <input type="submit" value="Mostrar Previsão de Chincilas">
+                <input type="reset" value="Resetar">
+            </form>
+            <pre></pre>
+        </div>
+    </div>
+    <script src="Script/exercicio5_b.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Revenda Herbie</title>
+    <link rel="stylesheet" href="Style/exemplos6.css">
+</head>
+<body>
+    <h1 style="width: 650px;">Revenda Herbie</h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="Image/herbie.jpg" alt="Imagem Herbie" class="alta">
+        </div>
+        <div class="content" style="max-width: 350px;">
+            <form action="#">
+                <p>
+                    Modelo:
+                    <input type="text" id="inModelo" required autofocus>
+                </p>
+                <p>
+                    Preço: R$
+                    <input type="number" id="inPreco" required>
+                    <input type="submit" value="Adicionar">
+                </p>
+                <input type="button" value="Listar Todos" id="btListar">
+                <input type="button" value="Filtrar por Preço" id="btFiltrar">
+                <input type="button" value="Simular Promoção" id="btSimular">
+            </form>
+            <pre></pre>
+        </div>
+    </div>
+    <script src="Script/exemplo6_3.js"></script>
+</body>
+</html>

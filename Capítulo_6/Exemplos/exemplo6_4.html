@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progroma Brinquedoteca</title>
+    <link rel="stylesheet" href="Style/exemplos6.css">
+</head>
+<body>
+    <h1 style="width: 650px;">Progroma Brinquedoteca</h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="Image/brinquedos.jpg" alt="Imagem Brinquedos" class="alta">
+        </div>
+        <div class="content" style="max-width: 350px;">
+            <form action="#">
+                <p>
+                    Nome da Criança:
+                    <input type="text" id="inNome" required>
+                </p>
+                <p>
+                    Idade:
+                    <input type="number" id="inIdade" min="0" step="1" required>
+                    <input type="submit" value="Adicionar">
+                </p>
+                <input type="button" value="Listar" id="btListar">
+                <input type="button" value="Resumir  por Idade" id="btResumir">
+            </form>
+            <pre></pre>
+        </div>
+    </div>
+    <script src="Script/exemplo6_4.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6.c</title>
+    <link rel="stylesheet" href="Style/exercicios6.css">
+</head>
+<body>
+    <!-- 
+        c) Elaborar um programa que leia nome e número de acertos de candidatos inscritos em um concurso. Listar os dados a cada inclusão. Ao clicar no botão Aprovados 2ª Fase, ler o número de acertos para aprovação dos candidatos para a 2ª fase do concurso. O programa deve, então, exibir os candidatos aprovados, ou seja, apenas os que obtiveram nota maior ou igual à nota informada. Exibir os candidatos aprovados em ordem decrescente de número de acertos. Caso nenhum candidato tenha sido aprovado, exibir mensagem.
+    -->
+    <h1 style="width: 660px;">Programa Concurso</h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="Image/notebook.jpg" alt="Imagem Notebook" class="normal">
+        </div>
+        <div class="content" style="max-width: 350px;">
+            <form action="#">
+                <p>
+                    Candidato:
+                    <input type="text" id="inCandidato" required>
+                </p>
+                <p>
+                    Nº Acertos:
+                    <input type="number" id="inAcertos" required step="1">
+                    <input type="submit" value="Adicionar">
+                </p>
+                <input type="button" value="Listar Todos" id="btListar">
+                <input type="button" value="Aprovado 2ª Etapa" id="btAprovados">
+            </form>
+            <pre></pre>
+        </div>
+    </div>
+    <script src="Script/exercicio6_c.js"></script>
+</body>
+</html>

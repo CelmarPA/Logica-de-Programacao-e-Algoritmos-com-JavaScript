@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6.a</title>
+    <link rel="stylesheet" href="Style/exercicios6.css">
+</head>
+<body>
+    <!-- 
+        a) Elaborar um programa para gerar uma tabela com os jogos de uma fase eliminatória de um campeonato. O programa deve conter três funções (a serem executadas no evento click de cada botão) para: 1) validar o preenchimento, adicionar um clube ao vetor e listar os clubes; 2) listar os clubes (se houver); 3) montar a tabela de jogos, no formato primeiro x último, segundo x penúltimo e assim por diante. Exibir mensagem e não listar a tabela de jogos, caso o número de clubes informados seja ímpar.
+    -->
+    <h1 style="width: 620px;">Jogos Eliminatórios</h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="Image/notebook.jpg" alt="Imagem Notebook" class="normal">
+        </div>
+        <div class="content">
+            <form action="#">
+                <p>
+                    Clube:
+                    <input type="text" id="inClube">
+                    <input type="submit" value="Adicionar">
+                </p>
+                <input type="button" value="Listar Clubes" id="btListar">
+                <input type="button" value="Montar Tabela de Jogos" id="btMontar">
+            </form>
+            <h3></h3>
+            <pre></pre>
+        </div>
+    </div>
+    <script src="Script/exercicio6_a.js"></script>
+</body>
+</html>

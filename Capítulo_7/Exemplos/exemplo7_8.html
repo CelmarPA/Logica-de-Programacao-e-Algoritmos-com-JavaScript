@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa da Loja</title>
+    <link rel="stylesheet" href="Style/exemplos7.css">    
+</head>
+<body>
+    <h1 style="width: 800px;">Programa Caixa da Loja</h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="Image/contas.jpg" alt="Imagem Caixa" class="normal">
+        </div>
+        <div class="content" style="max-width: 480px;">
+            <form action="#">
+                <p>
+                    Data de Vencimento:
+                    <input type="date" id="inDataVenc" required autofocus>
+                </p>
+                <p>
+                    Valor da Conta: R$
+                    <input type="number" id="inValor" min="0" step="0.01" class="alinha-direita" required>
+                    <input type="submit" value="Calcular Multa e Juros">
+                </p>
+                <p>
+                    Valor da Multa: R$ 
+                    <input type="number" id="outMulta" min="0" class="alinha-direita" readonly>
+                </p>
+                <p>
+                    Valor da Juros: R$
+                    <input type="number" id="outJuros" min="0" class="alinha-direita" readonly>
+                </p>
+                <p>
+                    Total a Pagar: R$
+                    <input type="number" id="outTotal" class="alinha-direita" readonly>
+                    <input type="reset" value="Nova Conta">
+                </p>                
+            </form>
+        </div>
+    </div>    
+    <script src="Script/exemplo7_8.js"></script>
+</body>
+</html>

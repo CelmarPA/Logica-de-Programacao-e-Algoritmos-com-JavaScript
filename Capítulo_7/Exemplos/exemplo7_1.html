@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa que lê um anúncio e informa número de palavras</title>
+    <link rel="stylesheet" href="Style/exemplos7.css">    
+</head>
+<body>
+    <script>
+        const anuncio = prompt("Anúncio: ") // Lê o anúncio
+        let numPalavras = 0
+        const tam = anuncio.length;
+
+        // for (let i = 0; i < tam; i++) {
+        //     if (anuncio.charAt(i) ==" ") { // Se encontrar algum espaço
+        //         numPalavras++;
+        //     }
+        // }
+
+        for (const letra of anuncio) {
+            if (letra === " ") { // se encontrar espaço
+                numPalavras++
+            }
+        }
+
+        // exibe anúncio e número de palavras (que é o nº de espaços + 1)
+        alert(`Anúncio: ${anuncio}\nNº Palavras: ${numPalavras + 1}`)
+    </script>
+</body>
+</html>

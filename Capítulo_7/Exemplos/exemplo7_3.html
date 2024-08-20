@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Palavra Inverso</title>
+    <link rel="stylesheet" href="Style/exemplos7.css">    
+</head>
+<body>
+    <script>
+        const palavra = prompt("Palavra: ") // Lê a palavra
+        
+        // Tamanho da palavra
+        const tam = palavra.length;
+
+        // Inverso inicia com a última letra da palvra em caixa alta
+        let inverso = palavra.charAt(tam - 1).toUpperCase();
+
+        // For decrescente percorre as demais letras
+        for (let i = tam - 2; i >= 0; i--) {
+            inverso += palavra.charAt(i).toLowerCase();
+        }
+
+        // Ecibe a palavra original e invertida
+        alert(`Palavra: ${palavra}\nInvertida: ${inverso}`);
+    </script>
+</body>
+</html>

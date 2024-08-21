@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 7.a</title>
+    <link rel="stylesheet" href="Style/exercicios7.css">
+    <link rel="shortcut icon" href="Image/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- 
+        a) Você deve desenvolver um programa de criptografia para transmitir mensagens entre amigos. O programa deve ler uma mensagem e, em seguida, exibi-la criptografada. A criptografia consiste em: a) exibir todas as letras das posições pares da mensagem; b) exibir todas as letras das posições ímpares da mensagem. O programa deve conter ainda um botão para decriptografar a mensagem, ou seja, retornar a mensagem original a partir do texto cifrado.
+    -->
+        <h1>Programa Criptografia</h1>
+        <div class="container">
+            <div class="image-container">
+                <img src="Image/notebook.jpg" alt="Imagem Notebook" class="normal">
+            </div>
+            <div class="content">
+                <form action="#">
+                    <p>
+                        Mensagem:
+                        <input type="text" id="inMensagem" required autofocus>
+                    </p>
+                    <p>
+                        <input type="submit" value="Criptografar">
+                        <input type="button" value="Decriptografar" id="btDecriptografar">
+                    </p>
+                </form>
+                <h3></h3>
+            </div>
+        </div>
+        <script src="Script/exercicio7_a.js"></script>
+</body>
+</html>

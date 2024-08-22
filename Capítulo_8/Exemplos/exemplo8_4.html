@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Avenida - Controle de Pedidos</title>
+    <link rel="stylesheet" href="Style/exemplos8.css">
+    <link rel="shortcut icon" href="Image/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <h1 style="width: 910px;">Pizzaria Avenida - Controle de Pedidos</h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="Image/pizza.jpg" alt="Imagem parcelas" class="normal">
+        </div>
+        <div class="content" style="max-width: 600px;">
+            <form action="#">
+                <p>
+                    Item do Pedidos:
+                    <input type="radio" name="produto" id="rbPizza" checked autofocus>Pizza
+                    <input type="radio" name="produto" id="rbBebida"> Bebida
+                    <span>Item:</span>
+                    <select id="inPizza">
+                        <option value="media">Pizza Média</option>
+                        <option value="grande">Pizza Grande</option>
+                        <option value="familia">Pizza Família</option>
+                    </select>
+                    <select id="inBebida" class="oculta">
+                        <option value="refri">Refrigerante Litro</option>
+                        <option value="suco">Jarra de Suco</option>
+                        <option value="agua">Água Mineral</option>
+                    </select>
+                </p>
+                <p>
+                    Detalhe do Item:
+                    <input type="text" id="inDetalhes" class="detalhes">
+                    <input type="submit" value="Adicionar">
+                </p>
+            </form>
+            <pre></pre>
+        </div>
+    </div>
+    <script src="Script/exemplo8_4.js"></script>
+</body>
+</html>

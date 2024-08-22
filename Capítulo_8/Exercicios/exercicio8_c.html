@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8.c</title>
+    <link rel="stylesheet" href="Style/exercicios8.css">
+    <link rel="shortcut icon" href="Image/favicon.png" type="image/x-icon">
+    <style>
+        p {
+            padding-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        c) Elaborar um programa para uma veterinária, o qual leia o preço de uma vacina e se o cliente possui ou não convênio. Caso possua algum convênio, exibir uma caixa de seleção com os convênios “Amigo dos Animais” e “Saúde Animal”. O programa deve exibir o valor do desconto (10% sem convênio; 20% para “Amigo dos Animais”; 50% para “Saúde Animal”) e o valor a ser pago. Criar a função:
+
+            • calcularDesconto() – que receba os parâmetros valor e  
+              taxa de desconto. Retornar o valor do desconto.
+    -->
+    <h1 style="width: 660px;">Veterinária Avenida</h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="Image/notebook.jpg" alt="Imagem Notebook" class="normal">
+        </div>
+        <div class="content" style="max-width: 350px;">
+            <form action="#">
+                <p>
+                    Valor da Vacina: R$
+                    <input type="number" id="inValor" class="alinha-direita" min="0" step="0.01" required autofocus>
+                </p>
+                <p>
+                    Possui Convênio:
+                    <input type="radio" name="convenio" id="rbSim" checked>Sim
+                    <input type="radio" name="convenio" id="rbNao">Não
+                </p>
+                <span id="pConvenio" style="margin: 0;">
+                    <p>
+                        Convênio:
+                        <select id="inConvenio">
+                            <option value="saude">Saúde Animal</option>
+                            <option value="amigo">Amigo dos Animais</option>
+                        </select>
+                    </p>
+                </span>
+                <input type="submit" value="Calcular Desconto" style="margin-bottom: 10px;">
+            </form>
+            <h3 id="outResp1"></h3>
+            <h3 id="outResp2"></h3>
+        </div>
+    </div>
+    <script src="Script/exercicio8_c.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Função com uso dos parâmetros Rest</title>
+        <link rel="stylesheet" href="Style/exemplos8.css" />
+        <link
+            rel="shortcut icon"
+            href="Image/favicon.png"
+            type="image/x-icon"
+        />
+    </head>
+    <body>
+        <script>
+            const calcularMedia = (...notas) => {
+                const num = notas.length; // quantidade de notas
+                if (num === 0) {
+                    console.log("Informe, no mínimo, uma nota");
+                    return;
+                }
+
+                // Declara e inicializa a váriavel soma
+                let soma = 0;
+
+                for (const nota of notas) {
+                    soma += nota; // Soma os valores da notas (argumentos)
+                }
+
+                // Calcula a média
+                const media = soma / num;
+                console.log(`Média: ${media.toFixed(1)}`);
+            }
+
+            // Exemplos de chamada da função calcularMedia() com diferente quantidade de parâmetros
+            calcularMedia(6, 7, 8); // Média: 7.0
+            calcularMedia(2, 10); // Média: 6.0
+            calcularMedia(7.5, 10, 8, 9.5); // Média: 8.8
+            calcularMedia(); // Informe, no mínimo, uma nota
+        </script>
+    </body>
+</html>

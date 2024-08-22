@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8.b</title>
+    <link rel="stylesheet" href="Style/exercicios8.css">
+    <link rel="shortcut icon" href="Image/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- 
+        b) Elaborar um programa que leia o nome completo de um aluno. O programa deve validar o preenchimento de um nome completo e exibir a senha inicial do aluno, a qual será o sobrenome seguido pelo número de vogais do nome completo dele. O programa deve conter as funções:
+
+            • validarNome() – que receba um nome como parâmetro
+              e retorne true (nome completo) ou false (nome incompleto).
+            • obterSobrenome() – que receba um nome como parâmetro     
+              e retorne o último nome do aluno em letras minúsculas. 
+            • contarVogais() – que receba um nome e retorne o número  
+              de vogais deste, com dois dígitos.
+    -->
+    <h1 style="width: 630px;">Programa Senha Inicial</h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="Image/notebook.jpg" alt="Imagem Notebook" class="normal">
+        </div>
+        <div class="content" style="max-width: 350px;">
+            <form action="#">
+                <p>
+                    Nome do Aluno:
+                    <input type="text" id="inNome" required autofocus>
+                </p>
+                <input type="submit" value="Gerar Senha">
+            </form>
+            <h3></h3>
+        </div>
+    </div>
+    <script src="Script/exercicio8_b.js"></script>
+</body>
+</html>

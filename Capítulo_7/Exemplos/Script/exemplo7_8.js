@@ -29,7 +29,7 @@ frm.addEventListener("submit", (e) => {
     // Calcula a diferença de dias entre as datas (em ms)
     const atraso = hoje - vencimento;
 
-    // Inicializa as váriaveis multa e juros
+    // Inicializa as variáveis multa e juros
     let multa = 0;
     let juros = 0;
 

@@ -11,7 +11,7 @@ const inRadios = document.querySelectorAll("input");
 const contarVisitas = () => {
     if (!localStorage.getItem("visita")) {
         alert(`Muito Bem-Vindo! Esta é a sua primeira visita ao nosso site.`);
-        // // Inicializa a váriavel count como 1
+        // // Inicializa a variável count como 1
         count = 1;
         // E armazena esse valor no localStorage
         localStorage.setItem("visita", count);

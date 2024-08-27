@@ -6,7 +6,7 @@ const limpar = document.querySelector("#btLimpar");
 
 // Função trocarClube()
 const trocarClube = () => {
-    // Declara váriavel clube
+    // Declara variável clube
     let clube;
 
     // Verifica se radiobutton está selecionado

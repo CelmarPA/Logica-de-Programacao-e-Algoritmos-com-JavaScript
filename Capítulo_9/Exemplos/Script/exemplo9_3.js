@@ -128,7 +128,7 @@ frm.btVencedor.addEventListener("click", () => {
 frm.btLimpar.addEventListener("click", () => {
     // Solicita confimação para excluir dados das apostas
     if(confirm("Confirma exclusão de todas as apostas?")) {
-        // Limpas as váriaveis salvas em localStorage
+        // Limpas as variáveis salvas em localStorage
         localStorage.removeItem("melanciaNome");
         localStorage.removeItem("melanciaPeso");
         mostrarApostas();

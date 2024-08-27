@@ -9,7 +9,7 @@ frm.addEventListener("submit", (e) => {
     // Obtém o número
     const num = Number(frm.inNumero.value);
 
-    // // Inicializa a váriavel contador
+    // // Inicializa a variável contador
     // let numDivisores = 0;
 
     // // Laço de repetição para calcular os divisores de um numero
@@ -27,7 +27,7 @@ frm.addEventListener("submit", (e) => {
     // }
 
     // Código otimizado
-    // Iniciliza a váriavel flag
+    // Iniciliza a variável flag
     let temDivisor = 0;
 
     // Laço de repetição para calcular os divisores de um numero

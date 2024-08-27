@@ -9,7 +9,7 @@ frm.addEventListener("submit", (e) => {
     // Obtém o número
     const num = Number(frm.inNumero.value);
 
-    // Inicializa a váriavel estrelas
+    // Inicializa a variável estrelas
     let estrelas = "";
 
     for (let i = 1; i <= num; i++) {

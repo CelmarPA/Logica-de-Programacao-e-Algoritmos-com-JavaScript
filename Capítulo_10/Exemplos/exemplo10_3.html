@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Filmes Favoritos</title>
+    <link rel="shortcut icon" href="Image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Style/exemplos10.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="Image/cimena.jpg" alt="Imagem Cinema" class="img-fluid">
+            </div>
+            <div class="col-sm-8">
+                <h1>Meus Filmes Favoritos</h1>
+                <form action="#">
+                    <p>
+                        <label for="inTitulo">Título do Filme:</label>
+                        <input type="text" id="inTitulo" class="form-control" required autofocus>
+                    </p>
+                    <p>
+                        <label for="inGenero">Gênero:</label>
+                        <input type="text" id="inGenero" class="form-control" required>
+                    </p>
+                    <input type="submit" value="Adicionar" class="btn btn-primary">
+                </form>
+                <table class="table table-striped" style="margin-top: 15px;">
+                    <tr>
+                        <th>Título do Filme</th>
+                        <th>Gênero</th>
+                        <th>Ações</th>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="Script/exemplo10_3.js"></script>
+</body>
+</html>

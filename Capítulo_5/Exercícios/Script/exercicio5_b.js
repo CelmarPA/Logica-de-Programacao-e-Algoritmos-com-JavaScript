@@ -26,7 +26,7 @@ frm.addEventListener("submit", (e) => {
         return;
     }
 
-    // Inicializa contador e a váriavel resposta
+    // Inicializa contador e a variável resposta
     let i = 1;
     let resposta = "";
     let chincilas = num;

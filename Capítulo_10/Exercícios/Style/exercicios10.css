@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(45deg, #93c9ec, #5236cf);
+}
+
+h1 {
+    width: px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom-style: inset;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start; /* Aligns the items at the top */
+    flex-flow: column wrap;
+}
+
+.image-container {
+    margin-right: 20px;
+}
+
+img.normal { 
+    float: left; 
+    height: 300px; 
+    width: 300px; 
+}
+
+img.alta { 
+    float: left; 
+    height: 420px; 
+    width: 300px; 
+}
+
+.tabuada-image {
+    max-width: 200px;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Ensures content starts from the top */
+    max-width: 300px;
+    padding: 10px;
+}
+
+.content p {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.result {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+pre, h3 { 
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.font-azul {
+    color: blue;
+}
+
+.oculta {
+    display: none;
+}
+
+.exibe {
+    display: inline;
+}
+
+.italico {
+    font-style: italic;
+}
+
+.entre-letras {
+    letter-spacing: 0.5em;
+}
+
+.alinha-direita {
+    text-align: right;
+}
+
+select {
+    width: 150px;
+}
+
+.detalhes {
+    width: 380px;
+}
+
+span {
+    margin-left: 70px;
+}
+
+.cores-Brasil {
+    color: black;
+    background-color: red;
+}
+
+.cores-Pelotas {
+    color: blue;
+    background-color: yellow;
+}
+
+.cores-Farroupilha {
+    color: green;
+    background-color: white;
+}
+
+.tarefa-selecionada {
+    color: red;
+    font-style: italic;
+}
+
+.tarefa-normal {
+    color: black;
+}
+
+img.moeda0-10 {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 5px;
+}
+
+img.moeda0-25 {
+    height: 76px;
+    width: 76px;
+    margin-bottom: 5px;
+}
+
+img.moeda0-50 {
+    height: 66px;
+    width: 66px;
+    margin-bottom: 5px;
+}
+
+img.moeda1-00 {
+    height: 84px;
+    width: 84px;
+    margin-bottom: 5px;
+}
+
+.exclui {
+    color: red;
+    cursor: pointer; 
+}

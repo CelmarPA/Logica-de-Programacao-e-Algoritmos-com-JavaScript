@@ -9,7 +9,7 @@ frm.addEventListener("submit", (e) => {
     // Obtém a mensagem
     const mensagem = frm.inMensagem.value;
     
-    // Declara váriavel resposta
+    // Declara variável resposta
     let resposta = "";
     
     // Extrai todas a letras das posições pares (como o indice começa em zero a primeira posição par é 1)
@@ -40,7 +40,7 @@ frm.btDecriptografar.addEventListener("click", () => {
     const tamanho = mensagem.length;
     const metade = Math.floor(tamanho / 2);
 
-    // Declara váriavel resposta
+    // Declara variável resposta
     let resposta = "";
 
     /**
@@ -49,7 +49,7 @@ frm.btDecriptografar.addEventListener("click", () => {
      * a mensagem original.
      */
 
-    // Declara a váriavel i para os loops de modo que esteja acessível ao final do loop ímpar
+    // Declara a variável i para os loops de modo que esteja acessível ao final do loop ímpar
     let i;
 
     if (tamanho % 2 === 0) {

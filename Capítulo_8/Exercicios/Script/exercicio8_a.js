@@ -8,7 +8,7 @@ const retornarTracos = (nome) => {
     // Divide o nome em  partes 
     const partes = nome.split(" ");
 
-    // Inicializa a váriavel tracos que ira receber os traços
+    // Inicializa a variável tracos que ira receber os traços
     let tracos = "";
 
     for (const parte of partes) {

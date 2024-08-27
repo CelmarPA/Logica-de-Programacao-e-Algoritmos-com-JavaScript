@@ -82,7 +82,7 @@ function calcularMedia() {
         return;
     }
 
-    // Inicializa a váriavel total
+    // Inicializa a variável total
     let total = 0;
 
     // Calcula o total

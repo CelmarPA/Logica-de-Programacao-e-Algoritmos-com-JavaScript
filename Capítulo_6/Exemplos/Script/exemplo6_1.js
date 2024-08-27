@@ -16,7 +16,7 @@ frm.addEventListener("submit", (e) => {
     // Adiciona o no ao final array pacientes
     pacientes.push(nome);
 
-    // Inicializa a váriavel lista
+    // Inicializa a variável lista
     let lista = "";
 
     for (let i = 0; i < pacientes.length; i++) {
@@ -48,7 +48,7 @@ frm.btUrgencia.addEventListener("click", () => {
     // Adiciona o nome ao inicio do array pacientes
     pacientes.unshift(nome);
 
-    // Inicializa a váriavel lista
+    // Inicializa a variável lista
     let lista = "";
 
     // Usa forEach sobre o array pacientes

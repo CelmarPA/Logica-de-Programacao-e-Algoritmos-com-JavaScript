@@ -38,7 +38,7 @@ frm.inDetalhes.addEventListener("blur", () => {
 frm.addEventListener("submit", (e) => {
     e.preventDefault(); // Evita o envio do form
 
-    // Declara a váriavel produto
+    // Declara a variável produto
     let produto;
 
     // Verifica se rbPizza está marcado

@@ -4,7 +4,7 @@ const respErros = document.querySelector("#outErros");
 const respChances = document.querySelector("#outChances");
 const respDica = document.querySelector("#outDica");
 
-// Declara as váriaveis de escopo global
+// Declara as variáveis de escopo global
 const erros = []; // vetor com números já apostados
 const sorteado = Math.floor(Math.random() * 100) + 1; // num aleatório entre 1 e 100
 const CHANCES = 6; // constante com o número máximo de chances

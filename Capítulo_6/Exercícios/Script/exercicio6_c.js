@@ -32,7 +32,7 @@ frm.btListar.addEventListener("click", () => {
         return;
     }
 
-    // Declara váriavel lista
+    // Declara variável lista
     let lista = "";
 
     // Preenche lista com candidatos
@@ -72,7 +72,7 @@ frm.btAprovados.addEventListener("click", () => {
     // Cria lista aprovados
     let aprovados = "";
 
-    // Declara váriavel aux para ordenar os candidatos
+    // Declara variável aux para ordenar os candidatos
     let aux = [...candidatos];
     aux.sort((a, b) => b.acertos - a.acertos);
 

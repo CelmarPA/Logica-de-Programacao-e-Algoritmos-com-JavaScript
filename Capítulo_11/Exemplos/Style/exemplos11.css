@@ -169,3 +169,19 @@ img.moeda1-00 {
     text-align: right;
     font-style: italic;
 }
+
+h5 {
+    font-style: italic;
+}
+
+figure {
+    display: inline-block;
+    font-size: 0.7em;
+    margin: 15px;
+}
+
+img.poltrona {
+    width: 24px;
+    height: 16px;
+    margin-right: 10px;
+}
